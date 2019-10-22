@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Moises frontend · javascript</title>
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+	<div class="container">
+		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+		    <h5 class="my-0 mr-md-auto font-weight-normal">Mannarino Moises</h5>
+		    <nav class="my-2 my-md-0 mr-md-3">
+		      <a class="p-2 text-dark" href="#">Mi correo - frontend.moises@gmail.com</a>  
+		    </nav>
+		  </div>
+		<div class="row">
+			<h1>crear dom</h1>
+		</div>
+ 		 <div class="row">
+		    <div class="col-8">
+		      <div class="sub-contenedor" id="sub-contenedor">
+		      	<!-- contenedor nodos creados  -->
+		      </div>
+		    </div>
+		    <div class="col-4 ">
+		      <!-- botonera  -->
+		      <div class="alert alert-secondary">
+		      	  <button type="button" id="crear-titulo" class="btn btn-primary" >crear titulo</button>
+			      <button type="button" id="crear-imagen" class="btn btn-primary" >crear imagen</button>
+			      <button type="button" id="crear-parrafo" class="btn btn-primary" >crear parrafo</button>
+			      <button type="button" id="crear-linea" class="btn btn-primary" >crear linea</button>
+			      <button type="button" id="crear-enlace" class="btn btn-primary" >crear enlace</button>
+		      </div>
+		      
+		    </div>
+		    
+		 </div>
+		 <div class="row">
+		    	<div class="col-6">
+		    		<p>Aqui debajo dejare el codigo de este script de crear y eliminar noodos del dom. <br>
+		    		Aclaro que se que hay otras maneras de crear dom, como por ejemplo con innerHTML y templates strings, pero elegi crear los nodos con metodos del dom como por ejemplo createElement y createTextNode por una finalidad de practicar.
+		    		</p>
+		    	</div>
+		 </div>
+		 <div class="row">
+		    	<div class="col-6">
+		    		<h3>Codigo html</h3>
+		    		<img src="img/html-crear.jpg">
+		    	</div>
+		 </div>
+		 <div class="row">
+		    	<div class="col-6">
+		    		<h3>Codigo javascript para crear y eliminar nodos del dom</h3>
+		    		<img src="img/crear1.jpg">
+		    		<img src="img/crear2.jpg">
+		    		<img src="img/crear3.jpg">
+		    	</div>
+		    </div>
+	</div>
+	<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md text-center">
+       <p> desarrollado por Moises Mannarino</p>
+      </div>
+    </div>
+  </footer>
+	<script type="text/javascript" src="crear-eliminar-nodos.js"></script>
+</body>
+</html>

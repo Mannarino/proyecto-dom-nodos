@@ -1,0 +1,73 @@
+.sub-contenedor{
+	border:5px solid black;
+	border-radius: 3px;
+	min-height: 300px;
+	padding: 30px;
+}
+.eliminarEnlace{
+	position: relative;
+	top: -30px;
+	right: -143px;
+	border: 1px solid black;
+	border-radius: 50%;
+	opacity: 0.5;
+	height: 0px;
+	padding: 3px;
+	line-height: 0.5px;
+	padding-top: 0px;
+	font-size: 15px;
+	background-color: white;
+}
+.eliminarImg{
+	position: relative;
+	top: -10px;
+	right: -123px;
+	border: 1px solid black;
+	border-radius: 50%;
+	opacity: 0.5;
+	height: 0px;
+	padding: 3px;
+	padding-top: 0px;
+	font-size: 15px;
+	background-color: white;
+}
+.eliminar{
+	position: relative;
+	top: -15px;
+	right: -7px;
+	border: 1px solid black;
+	border-radius: 50%;
+	opacity: 0.5;
+	height: 0px;
+	padding: 3px;
+	line-height: 0.5px;
+	padding-top: 0px;
+	font-size: 15px;
+}
+.contenedorNodo{
+	background-color:#e2e3e5;
+	width: 150px;
+	margin: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.contenedorNodoImg{
+	background-color:#e2e3e5;
+	width: 250px;
+	height: 160px;
+	margin: 20px;
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+}
+button{
+	margin: 5px;
+	width: 120px;
+}
+a{
+	display: inline-block;
+	margin: 15px;
+}
+p{
+	margin-top: 35px;
+}
